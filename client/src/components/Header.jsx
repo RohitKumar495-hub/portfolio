@@ -37,7 +37,13 @@ const Header = ({darkMode}) => {
 
                 <p className='text-justify text-sm'>Passionate and skilled Web Developer with a strong foundation in building fully functional, responsive, and user-centric web applications. Proficient in front-end and back-end technologies, with a keen eye for design, performance optimization, and cross-browser compatibility. Adept at turning complex problems into elegant, scalable solutions, and continuously learning new tools and frameworks to stay updated with the latest industry trends.</p>
                 <div className='flex gap-6'>
-                    <Link className={`flex items-center md:w-42 w-28 text-xs md:text-base px-2 py-1 cursor-pointer rounded gap-3 ${darkMode ? 'hover:bg-[#264D3F] bg-[#2F6B50]' : 'hover:bg-[#2F6B50] bg-[#54B689]'} text-white`}>
+                    <Link 
+                        to='project'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className={`flex items-center md:w-42 w-28 text-xs md:text-base px-2 py-1 cursor-pointer rounded gap-3 ${darkMode ? 'hover:bg-[#264D3F] bg-[#2F6B50]' : 'hover:bg-[#2F6B50] bg-[#54B689]'} text-white`}>
                         <FaArrowAltCircleRight size={20}/>
                         View Portfolio
                     </Link>

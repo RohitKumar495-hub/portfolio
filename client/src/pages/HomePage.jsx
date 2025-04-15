@@ -46,7 +46,7 @@ const HomePage = () => {
                 
                     {/* mobile navbar */}
 
-                    <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} p-4 text-white flex items-center justify-between gap-4 lg:hidden`}>
+                    <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} p-4 text-white flex items-center justify-between gap-4 lg:hidden sticky top-0 left-0 right-0 bottom-0 z-50`}>
 
                         <h1 className='text-3xl font-bold'>Rohit</h1>
                         <button className='cursor-pointer' onClick={() => setOpenMobileMenu(true)}>
