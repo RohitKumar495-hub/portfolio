@@ -4,7 +4,7 @@ import skillDetails from '../data/skillsDetails';
 const SkillsDetails = ({ darkMode }) => {
     return (
 
-<section id='skill' className={`grid gap-6 p-4 ${darkMode ? 'text-[#E6EDF3]' : 'bg-amber-50'} overflow-x-auto scrollbar-hide`}>
+<section className={`grid gap-6 p-4 ${darkMode ? 'text-[#E6EDF3]' : 'bg-amber-50'} overflow-x-auto scrollbar-hide`}>
 
 <h1 className='font-bold text-xl'>Skills Details</h1>
 

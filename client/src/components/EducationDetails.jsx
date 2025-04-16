@@ -9,7 +9,6 @@ const EducationDetails = ({darkMode}) => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 2, ease: "easeOut" }}
             viewport={{ once: false, amount: 0.5 }}
-            id='education'
             className={`p-4 ${darkMode ? 'bg-[#0D1117]' : 'bg-red-50'} grid gap-6 mb-4`}
         >
 

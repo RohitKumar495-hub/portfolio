@@ -66,28 +66,35 @@ const HomePage = () => {
 
                     {/* About Section */}
 
-                    <div className='overflow-hidden'>
+                    <div id='about' className='overflow-hidden'>
                         <About darkMode={darkMode}/>
                     </div>
 
 
                     {/* Education Section */}
 
-                    <div className='overflow-hidden'>
+                    <div  id='education' className='overflow-hidden'>
                         <EducationDetails darkMode={darkMode}/>
                     </div>
 
                     {/* Skills section */}
 
-                    <SkillsDetails darkMode={darkMode}/>
+                    <div id='skills'>
+                        <SkillsDetails darkMode={darkMode}/>
+                    </div>
+
 
                     {/* Projects sectiom */}
 
-                    <ProjectDetails darkMode={darkMode}/>
+                    <div id='project'>
+                        <ProjectDetails darkMode={darkMode}/>
+
+                    </div>
+
 
                     {/* Contact Section */}
 
-                    <div className='overflow-hidden'>
+                    <div id='contact' className='overflow-hidden'>
                         <Contact darkMode={darkMode}/>
                     </div>
 

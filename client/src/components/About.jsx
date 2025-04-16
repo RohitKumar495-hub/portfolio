@@ -8,7 +8,6 @@ const About = ({darkMode}) => {
     whileInView={{ x: 0, opacity: 1 }}
     transition={{ duration: 2, ease: "easeOut" }}
     viewport={{ once: false, amount: 0.2 }} // optional settings
-    id='about'
     className={`p-4 ${darkMode ? 'bg-[#161B22]' : 'bg-[#EEFFF6]'}`}>
 
         <h1 className='text-xl font-bold'>Who I Am?</h1>
