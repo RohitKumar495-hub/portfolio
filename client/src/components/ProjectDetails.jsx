@@ -37,7 +37,7 @@ const ProjectDetails = ({ darkMode }) => {
                             {
                                 stacks.map((stackItem , index) => {
                                     return (
-                                        <div className='h-8 w-16 md:w-19 md:text-sm text-xs flex items-center justify-center rounded bg-slate-600 text-white' key={index}><p>{stackItem}</p></div>
+                                        <div className='h-8 w-16 text-xs flex items-center justify-center rounded bg-slate-600 text-white' key={index}><p>{stackItem}</p></div>
                                     )
                                 })
                             }

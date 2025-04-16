@@ -27,7 +27,7 @@ const NavBar = ({darkMode , setDarkMode , close}) => {
                         duration={500}
                         activeClass="text-[#3B7F60] font-semibold" 
                         key={data.name + index}
-                        className='cursor-pointer flex items-center flex-1 gap-3 hover:text-[#3B7F60] ml-5 text-lg' 
+                        className='cursor-pointer flex items-center flex-1 gap-3 hover:text-[#3B7F60] ml-5 md:text-sm lg:text-lg' 
                         onClick={handleLinkClick}
                     >
                         <data.image />

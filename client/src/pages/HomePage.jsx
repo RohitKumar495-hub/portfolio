@@ -20,16 +20,16 @@ const HomePage = () => {
 
         <div className='bg-green-500 h-[2500px]'>
 
-        <section className='grid lg:grid-cols-[20%_80%] bg-green-700'>
+        <section className='grid md:grid-cols-[30%_70%] lg:grid-cols-[20%_80%] bg-green-700'>
 
             {/* /left side => navbar */}
 
-            <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} h-screen lg:block hidden p-2 text-white sticky top-0`}>
+            <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} h-screen md:block hidden p-2 text-white sticky top-0`}>
 
                 <div className='w-full flex flex-col gap-3 items-center'>
 
-                    <h1 className='text-3xl font-bold'>Rohit Kumar</h1>
-                    <div className='bg-white w-40 h-40 rounded-full'>
+                    <h1 className='md:text-2xl lg:text-3xl font-bold'>Rohit Kumar</h1>
+                    <div className='bg-white md:w-30 md:h-30 lg:w-40 lg:h-40 rounded-full'>
                         <img src={navpic} alt="" className='rounded-full w-full h-full object-cover'/>
                     </div>
 
@@ -45,13 +45,13 @@ const HomePage = () => {
 
             {/* right side => content */}
 
-            <div className={`${darkMode ? 'bg-[#0D1117] text-white' : 'bg-white'} `}>
+            <div className={`${darkMode ? 'bg-[#0D1117] text-white' : 'bg-white'}`}>
 
                 
                     {/* mobile navbar */}
-                <div className='w-full grid gap-5'>
+                <div className='grid'>
 
-                <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} p-4 text-white flex items-center justify-between gap-4 lg:hidden sticky top-0 left-0 right-0 bottom-0 z-50`}>
+                <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} p-4 text-white flex items-center justify-between gap-4 md:hidden sticky top-0 left-0 right-0 bottom-0 z-50`}>
 
                     <h1 className='text-3xl font-bold'>Rohit</h1>
                     <button className='cursor-pointer' onClick={() => setOpenMobileMenu(true)}>
