@@ -15,7 +15,7 @@ const NavBar = ({darkMode , setDarkMode , close}) => {
 
   return (
     <section className='grid lg:gap-5 gap-4'>
-
+{/* 
         {
             navItems.map((data , index) => {
                 return (
@@ -35,7 +35,7 @@ const NavBar = ({darkMode , setDarkMode , close}) => {
                     </Link>
                 )
             })
-        }
+        } */}
 
         <button type='button' onClick={() => {
             setDarkMode(prev => !prev)
