@@ -17,7 +17,7 @@ const MobileNavBar = ({ close, darkMode, setDarkMode }) => {
                     </button>
                 </div>
 
-                <div className='w-full h-full flex flex-col gap-3 items-center justify-center'>
+                <div className='w-full h-full flex flex-col gap-3 items-center px-2'>
 
                     <div className='bg-white w-40 h-40 rounded-full'>
                         <img src={navpic} alt="navpic" className='w-full h-full rounded-full object-cover' />
