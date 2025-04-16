@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-      <HomePage/>
+      <HomePage />
       <div>
-      <Toaster position="top-center" reverseOrder={false} />
-    </div>
+          <Toaster position="top-center" reverseOrder={false} />
+      </div>
     </>
   )
 }

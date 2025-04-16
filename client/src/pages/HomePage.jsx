@@ -17,13 +17,16 @@ const HomePage = () => {
     const [darkMode, setDarkMode] = useState(true)
 
     return (
-        <section className='grid lg:grid-cols-[20%_80%] min-h-screen'>
+
+        <div className='bg-green-500 h-[2500px]'>
+
+        <section className='grid lg:grid-cols-[20%_80%] bg-green-700'>
 
             {/* /left side => navbar */}
 
             <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} h-screen lg:block hidden p-2 text-white sticky top-0`}>
 
-                <div className='w-full h-full flex flex-col gap-3 items-center justify-center'>
+                <div className='w-full flex flex-col gap-3 items-center'>
 
                     <h1 className='text-3xl font-bold'>Rohit Kumar</h1>
                     <div className='bg-white w-40 h-40 rounded-full'>
@@ -42,7 +45,7 @@ const HomePage = () => {
 
             {/* right side => content */}
 
-            <div className={`${darkMode ? 'bg-[#0D1117] text-white' : 'bg-white'}`}>
+            <div className={`${darkMode ? 'bg-[#0D1117] text-white' : 'bg-white'} `}>
 
                 
                     {/* mobile navbar */}
@@ -91,7 +94,7 @@ const HomePage = () => {
 
                     {/* Social Links */}
 
-                    {/* <SocialLinks className='lg:hidden'/> */}
+                    <SocialLinks />
 
                 </div>
 
@@ -105,6 +108,8 @@ const HomePage = () => {
             }
 
         </section>
+        
+        </div>
     )
 }
 

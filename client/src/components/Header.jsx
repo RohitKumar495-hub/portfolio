@@ -7,6 +7,8 @@ import pic from '../assets/images/c.jpg'
 
 const Header = ({darkMode}) => {
     return (
+
+        
         <section className='w-full h-fit grid lg:grid-cols-[70%_30%] gap-4 lg:gap-0'>
 
             {/* left side => content */}

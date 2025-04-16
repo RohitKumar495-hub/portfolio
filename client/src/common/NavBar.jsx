@@ -23,7 +23,7 @@ const NavBar = ({darkMode , setDarkMode , close}) => {
                         to={data.url}
                         spy={true}
                         smooth={true}
-                        offset={data.url === 'contact' ? -70 : -80}
+                        offset={data.url === 'contact' ? -90 : -80}
                         duration={500}
                         activeClass="text-[#3B7F60] font-semibold" 
                         key={data.name + index}

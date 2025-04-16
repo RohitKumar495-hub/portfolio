@@ -11,7 +11,7 @@ const ProjectDetails = ({ darkMode }) => {
 
             <h1 className='font-bold text-xl'>My Projects</h1>
 
-            <div className='flex overflow-x-auto gap-8'>
+            <div className='flex overflow-x-auto gap-8 scrollbar-hide'>
 
             {
             projectDetails.map((data , index) => {

@@ -34,7 +34,7 @@ const Contact = ({darkMode}) => {
             transition={{ duration: 2, ease: "easeOut" }}
             viewport={{ once: false, amount: 0.2 }}
             id='contact'
-            className='p-4 '
+            className='p-4 pb-0 mb-0'
         >
 
             <h1 className='text-xl font-bold'>Contact Me</h1>
