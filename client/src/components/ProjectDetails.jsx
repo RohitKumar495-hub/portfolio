@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const ProjectDetails = ({ darkMode }) => {
     return (
 
-        <section className={`grid gap-6 p-4 ${darkMode ? 'bg-[#161B22]' : 'bg-red-50'}`}>
+        <section id='project' className={`grid gap-6 p-4 ${darkMode ? 'bg-[#161B22]' : 'bg-red-50'}`}>
 
             <h1 className='font-bold text-xl'>My Projects</h1>
 

@@ -33,6 +33,7 @@ const Contact = ({darkMode}) => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 2, ease: "easeOut" }}
             viewport={{ once: false, amount: 0.2 }}
+            id='contact'
             className='p-4 pb-0 mb-0'
         >
 
