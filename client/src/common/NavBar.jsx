@@ -20,13 +20,13 @@ const NavBar = ({darkMode , setDarkMode , close}) => {
             navItems.map((data , index) => {
                 return (
                     <Link 
-                        // to={data.url}
-                        // spy={true}
-                        // smooth={true}
-                        // offset={data.url === 'contact' ? -70 : -80}
-                        // duration={500}
-                        // activeClass="text-[#3B7F60] font-semibold" 
-                        // key={data.name + index}
+                        to={data.url}
+                        spy={true}
+                        smooth={true}
+                        offset={data.url === 'contact' ? -70 : -80}
+                        duration={500}
+                        activeClass="text-[#3B7F60] font-semibold" 
+                        key={data.name + index}
                         className='cursor-pointer flex items-center flex-1 gap-3 hover:text-[#3B7F60] ml-5 text-lg' 
                         onClick={handleLinkClick}
                     >

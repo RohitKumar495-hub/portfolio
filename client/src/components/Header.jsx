@@ -4,8 +4,6 @@ import { Link } from 'react-scroll'
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { IoIosDocument } from "react-icons/io";
 import pic from '../assets/images/c.jpg'
-import { motion } from "framer-motion";
-import profile_pic from '../assets/images/a.jpg'
 
 const Header = ({darkMode}) => {
     return (

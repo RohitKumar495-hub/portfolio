@@ -39,7 +39,7 @@ const Contact = ({darkMode}) => {
 
             <h1 className='text-xl font-bold'>Contact Me</h1>
 
-            <div className='min-h-[500px] rounded p-5'>
+            <div className='h-fit rounded p-5'>
                 <p className='text-center'>
                     Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me
                     an email at <br />

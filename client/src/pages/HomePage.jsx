@@ -17,12 +17,13 @@ const HomePage = () => {
     const [darkMode, setDarkMode] = useState(true)
 
     return (
-        <section className='grid lg:grid-cols-[20%_80%] '>
+        <section className='grid lg:grid-cols-[20%_80%] min-h-screen'>
 
             {/* /left side => navbar */}
-            <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} h-screen sticky top-0 lg:block hidden p-2 text-white`}>
 
-                <div className='w-full h-full flex flex-col gap-5 items-center justify-center '>
+            <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} h-screen lg:block hidden p-2 text-white sticky top-0`}>
+
+                <div className='w-full h-full flex flex-col gap-3 items-center justify-center'>
 
                     <h1 className='text-3xl font-bold'>Rohit Kumar</h1>
                     <div className='bg-white w-40 h-40 rounded-full'>
@@ -41,13 +42,10 @@ const HomePage = () => {
 
             {/* right side => content */}
 
-            <div className={`${darkMode ? 'bg-[#0D1117] text-white' : 'bg-white'} h-full`}>
+            <div className={`${darkMode ? 'bg-[#0D1117] text-white' : 'bg-white'}`}>
 
                 
                     {/* mobile navbar */}
-
-
-
                 <div className='w-full grid gap-5'>
 
                 <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} p-4 text-white flex items-center justify-between gap-4 lg:hidden sticky top-0 left-0 right-0 bottom-0 z-50`}>
@@ -93,20 +91,9 @@ const HomePage = () => {
 
                     {/* Social Links */}
 
-                    <SocialLinks />
+                    {/* <SocialLinks className='lg:hidden'/> */}
 
                 </div>
-
-
-
-
-
-
-
-
-
-
-
 
             </div>
 
