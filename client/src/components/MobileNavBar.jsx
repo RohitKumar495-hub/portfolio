@@ -7,9 +7,9 @@ import navpic from '../assets/images/b.jpg'
 const MobileNavBar = ({ close, darkMode, setDarkMode }) => {
     return (
 
-        <div className='sticky top-0 left-0 right-0 bottom-0 z-50'>
+        <div className='sticky top-0 left-0 right-0 bottom-0 z-100'>
 
-            <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} text-white p-3 grid gap-2`}>
+            <div className={`${darkMode ? 'bg-[#161B22]' : 'bg-[#54B689]'} text-white p-3`}>
                 <div className='flex items-center justify-between gap-4'>
                     <h1 className='text-2xl font-bold'>Rohit Kumar</h1>
                     <button onClick={close}>
